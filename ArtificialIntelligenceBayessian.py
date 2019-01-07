@@ -5,6 +5,6 @@ def loadCsv(filename):
 	for i in range(len(dataset)):
 		dataset[i] = [float(x) for x in dataset[i]]
 	return dataset
-filename = 'C:\Users\User\Desktop.csv'
+filename = 'C:\Users\User\Desktop\wb.csv'
 dataset = loadCsv(filename)
 print('Loaded data file {0} with {1} rows').format(filename, len(dataset))
